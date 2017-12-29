@@ -31,11 +31,11 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav ml-auto">
             <li class="nav-item">
-              <a class="nav-link" href="https://ernie932.github.io/">Home
+              <a class="nav-link" href="index.html">Home
               </a>
             </li>
             <li class="nav-item active">
-              <a class="nav-link" href="https://ernie932.github.io/portfolio.html">Portfolio</a>
+              <a class="nav-link" href="portfolio.html">Portfolio</a>
                 <span class="sr-only">(current)</span>
             </li>
             <li class="nav-item">
@@ -67,10 +67,11 @@
             <div class="card-body">
               <h4 class="card-title" style="color: #007bff;">
                 Excel Table Scraper
-              </h4>
+              </h4><span class="badge badge-secondary">General Purpose</span>
               <p class="card-text">Grabs DataBodyRange of all Excel tables in workbook (visible and hidden) and places the information in a
               worsheet at the end called "Values". Uses the longest header row of all Excel tables in the "Values" worksheet.
-              Make sure to check alignment.</p>
+              </p>
+              <p>Saves hours of work when receiving recommendaitons from multiple divisions.</p>
             </div>
             <!-- Button -->
             <div class="card-footer">
@@ -86,10 +87,10 @@
             <div class="card-body">
               <h4 class="card-title"  style="color: #007bff;">
                 Workbook Consolidator
-              </h4>
-              <p class="card-text">Cycles through all workbooks in file folder (you get to choose) and brings all worksheets into
+              </h4><span class="badge badge-secondary">General Purpose</span>
+              <p class="card-text">Cycles through all workbooks in folder and brings all worksheets into
               one workbook. Option to open certain extensions (.xls,.xlsm, etc.) or use passwords. Used in conjunction with the Excel Table Scraper to collect all values in a folder.</p>
-              <p>Great for any process where it is necessary to collect recommendations from many divisions/areas.</p>
+              <p>Also saves hours of work, and allows for a consolidated workbook.</p>
             </div>
               <!-- Button -->
               <div class="card-footer">
@@ -104,8 +105,69 @@
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
               <h4 class="card-title"  style="color: #007bff;">
+                Merit/COLA Increase Planning - Data Validation
+              </h4><span class="badge badge-secondary">Compensation</span>
+              <p class="card-text">During Merit/COLA planning, managers can enter either the amount increase or the percent increase
+              and the other item will change accordingly.</p>
+              <p>Ensures accuracy of recommendations submitted and saves manager from headache of checking calculations.</p>
+            </div>
+              <!-- Button -->
+              <div class="card-footer">
+                <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
+                <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
+              </div>
+              <!-- Button -->
+          </div>
+        </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title"  style="color: #007bff;">
+                Workbook Cleanup
+              </h4><span class="badge badge-secondary">General Purpose</span>
+              <p class="card-text">Multiple small macros used to:</p>
+              <ul>
+                <li>Replace INDEX/MATCH, VLOOKUP, SUMIFS, etc. formulas from ActiveSheet to avoid broken links.</li>
+                <li>Collapse all grouped columns in every spreadsheet. Also moves view to top and leftmost cell.</li>
+                <li> Clear Names and Conditional Formatting.</li>
+              </ul>
+              <p>I use this daily! Saves time from repetitve, boring tasks!</p>
+            </div>
+                <!-- Button -->
+                <div class="card-footer">
+                  <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
+                  <a class="btn btn-primary" href="https://github.com/ernie932/ernie932.github.io/images" download><i class="fa fa-cloud-download fa-fw"></i> Download</a>
+                </div>
+                <!-- Button -->
+            </div>
+          </div>
+          <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title"  style="color: #007bff;">
+                  Table Partition
+                </h4><span class="badge badge-secondary">General Purpose</span>
+                <p class="card-text">Part 1: Partitions master table into separate worksheets based on column info (i.e. breakout master table by division)</p>
+                <p>Part 2: Partitions newly created worksheets into workbooks or PDFs with password.</p>
+                <p>What used to take DAYS is now reduced to one afternoon.</p>
+              </div>
+                  <!-- Button -->
+                  <div class="card-footer">
+                    <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
+                    <a class="btn btn-primary" href="https://github.com/ernie932/ernie932.github.io/images" download><i class="fa fa-cloud-download fa-fw"></i> Download</a>
+                  </div>
+                  <!-- Button -->
+              </div>
+            </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title"  style="color: #007bff;">
                 Sheet Selector - UserForm
-              </h4>
+              </h4><span class="badge badge-secondary">General Purpose</span>
               <p class="card-text">Provides a list of all open workbooks. Once selection is complete,
                 then it can be used in other macros. This allows you to use ActiveWorkbook after selection.</p>
                 <p> Very simple, but extremely useful!</p>
@@ -129,13 +191,31 @@
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
               <h4 class="card-title" style="color: #007bff;">
-                Project Four
+                Compensation Committee Board Presentation
+              </h4><span class="badge badge-secondary">Compensation</span>
+              <p class="card-text">Made templates together with coworkers. Workbooks optimized for importing companywide recommendations
+              and generating award summaries.</p>
+              <p>Download includes pictures of hard copy, bound presentation.</p>
+            </div>
+              <!-- Button -->
+              <div class="card-footer">
+                <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
+              </div>
+              <!-- Button -->
+            </div>
+          </div>
+        <div class="col-lg-4 col-sm-6 portfolio-item">
+          <div class="card h-100">
+            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+            <div class="card-body">
+              <h4 class="card-title" style="color: #007bff;">
+                Rubik's Cube Scrambler
               </h4><span class="badge badge-secondary">Personal</span>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+              <p class="card-text">Used to study certain solve cases, this shows what a cube looks like after scrambling a certain pattern.</p>
+              <p>Helps in learning blindfold solving.</p>
             </div>
               <!-- Button -->
               <div class="card-footer">
-                <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
                 <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
               </div>
               <!-- Button -->
@@ -146,30 +226,13 @@
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
               <h4 class="card-title" style="color: #007bff;">
-                Project Five
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam viverra euismod odio, gravida pellentesque urna varius vitae.</p>
+                Mortgage Calculator
+              </h4><span class="badge badge-secondary">Personal</span>
+              <p class="card-text">Takes into account all expenses from down payment to interest rate and propery taxes.</p>
+              <p>Helped my wife and I plan for new payment and see how lon it would take to pay off.</p>
             </div>
               <!-- Button -->
               <div class="card-footer">
-                <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
-                <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
-              </div>
-              <!-- Button -->
-            </div>
-          </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title" style="color: #007bff;">
-                Project Six
-              </h4>
-              <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Itaque earum nostrum suscipit ducimus nihil provident, perferendis rem illo, voluptate atque, sit eius in voluptates, nemo repellat fugiat excepturi! Nemo, esse.</p>
-            </div>
-              <!-- Button -->
-              <div class="card-footer">
-                <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
                 <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
               </div>
               <!-- Button -->
