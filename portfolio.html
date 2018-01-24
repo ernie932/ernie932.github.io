@@ -10,6 +10,8 @@
 
     <title>Ernesto Cruz - Portfolio</title>
 
+    <!--<link rel="icon" href="images/favicon.ico" />-->
+
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
     <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet">
@@ -24,7 +26,7 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
       <div class="container">
-          <a class="navbar-brand" href="https://ernie932.github.io/">Ernesto Cruz</a>
+          <a class="navbar-brand" href="index.html">Ernesto Cruz</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -39,7 +41,7 @@
                 <span class="sr-only">(current)</span>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Resum&eacute;</a>
+              <a class="nav-link" href="resume.html">Resum&eacute;</a>
             </li>
           </ul>
         </div>
@@ -50,7 +52,7 @@
     <header class="bg-primary text-white" style="padding:70px 0px 50px;">
       <div class="container text-center">
         <h1 style="font-size:4rem;">Portfolio</h1>
-        <p class="lead" style="font-size:2rem;"> Excel, Access, etc.</p>
+        <p class="lead" style="font-size:2rem;"> VBA, Excel, Access (Coming Soon)</p>
       </div>
     </header>
 
@@ -61,9 +63,15 @@
       </h2>
 
       <div class="row">
+        <div class="col portfolio-item">I taught myself how to code in VBA.
+          There were a couple of tasks at work that I felt could be automated and so I began to build as needed.
+          At first, I would simply copy what I found on StackOverflow, but as I began to understand more, I was able to write my own projects from scratch.</div>
+      </div>
+
+      <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="https://ernie932.github.io/images/tables2.png" alt=""></a>
+            <a href="#"><img class="card-img-top" src="images/tables3.png" alt=""></a>
             <div class="card-body">
               <h4 class="card-title" style="color: #007bff;">
                 Excel Table Scraper
@@ -79,25 +87,6 @@
               <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
             </div>
             <!-- Button -->
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
-          <div class="card h-100">
-            <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
-            <div class="card-body">
-              <h4 class="card-title"  style="color: #007bff;">
-                Workbook Consolidator
-              </h4><span class="badge badge-secondary">General Purpose</span>
-              <p class="card-text">Cycles through all workbooks in folder and brings all worksheets into
-              one workbook. Option to open certain extensions (.xls,.xlsm, etc.) or use passwords. Used in conjunction with the Excel Table Scraper to collect all values in a folder.</p>
-              <p>Also saves hours of work, and allows for a consolidated workbook.</p>
-            </div>
-              <!-- Button -->
-              <div class="card-footer">
-                <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
-                <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
-              </div>
-              <!-- Button -->
           </div>
         </div>
         <div class="col-lg-4 col-sm-6 portfolio-item">
@@ -137,12 +126,31 @@
                 <!-- Button -->
                 <div class="card-footer">
                   <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
-                  <a class="btn btn-primary" href="https://github.com/ernie932/ernie932.github.io/images" download><i class="fa fa-cloud-download fa-fw"></i> Download</a>
+                  <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
                 </div>
                 <!-- Button -->
             </div>
           </div>
-          <div class="col-lg-4 col-sm-6 portfolio-item">
+          <!-- <div class="col-lg-4 col-sm-6 portfolio-item">
+            <div class="card h-100">
+              <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
+              <div class="card-body">
+                <h4 class="card-title"  style="color: #007bff;">
+                  Workbook Consolidator
+                </h4><span class="badge badge-secondary">General Purpose</span>
+                <p class="card-text">Cycles through all workbooks in folder and brings all worksheets into
+                one workbook. Option to open certain extensions (.xls,.xlsm, etc.) or use passwords. Used in conjunction with the Excel Table Scraper to collect all values in a folder.</p>
+                <p>Also saves hours of work, and allows for a consolidated workbook.</p>
+              </div> -->
+                <!-- Button
+                <div class="card-footer">
+                  <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
+                  <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
+                </div>
+                Button -->
+            <!-- </div>
+          </div> -->
+          <!-- <div class="col-lg-4 col-sm-6 portfolio-item">
             <div class="card h-100">
               <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
               <div class="card-body">
@@ -152,16 +160,16 @@
                 <p class="card-text">Part 1: Partitions master table into separate worksheets based on column info (i.e. breakout master table by division)</p>
                 <p>Part 2: Partitions newly created worksheets into workbooks or PDFs with password.</p>
                 <p>What used to take DAYS is now reduced to one afternoon.</p>
-              </div>
-                  <!-- Button -->
+              </div> -->
+                  <!-- Button
                   <div class="card-footer">
                     <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
-                    <a class="btn btn-primary" href="https://github.com/ernie932/ernie932.github.io/images" download><i class="fa fa-cloud-download fa-fw"></i> Download</a>
+                    <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
                   </div>
-                  <!-- Button -->
-              </div>
-            </div>
-        <div class="col-lg-4 col-sm-6 portfolio-item">
+                   Button -->
+              <!-- </div>
+            </div> -->
+        <!--<div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
             <a href="#"><img class="card-img-top" src="http://placehold.it/700x400" alt=""></a>
             <div class="card-body">
@@ -171,20 +179,28 @@
               <p class="card-text">Provides a list of all open workbooks. Once selection is complete,
                 then it can be used in other macros. This allows you to use ActiveWorkbook after selection.</p>
                 <p> Very simple, but extremely useful!</p>
-            </div>
-                <!-- Button -->
+            </div> -->
+                <!-- Button
                 <div class="card-footer">
                   <a class="btn btn-primary" href="#"><i class="fa fa-github fa-fw"></i> View Source</a>
-                  <a class="btn btn-primary" href="https://github.com/ernie932/ernie932.github.io/images" download><i class="fa fa-cloud-download fa-fw"></i> Download</a>
+                  <a class="btn btn-primary" href="#" download><i class="fa fa-cloud-download fa-fw"></i> Download</a>
                 </div>
-                <!-- Button -->
-            </div>
-          </div>
+                 Button -->
+            <!--</div>
+          </div> -->
         </div>
 
         <h2>
           Excel Projects
         </h2>
+
+      <div class="row">
+        <div class="col portfolio-item">I taught myself how to use Excel, and picked up some tricks from fellow co-workers along the way.
+          I started with simple budget spreadsheets in my personal time and worked my way to larger lookup formulas at work.
+          I often take the opportunity to learn how to do something more efficiently whenever there is a new project.
+          I also learned from creating spreadsheets that other people would use, to be mindful of designing the spreadsheet so it could walk on its own two feet.</div>
+      </div>
+
       <div class="row">
         <div class="col-lg-4 col-sm-6 portfolio-item">
           <div class="card h-100">
@@ -216,7 +232,7 @@
             </div>
               <!-- Button -->
               <div class="card-footer">
-                <a class="btn btn-primary" href="#"><i class="fa fa-cloud-download fa-fw"></i> Download</a>
+                <a class="btn btn-primary" href="https://github.com/ernie932/Portfolio/excel/CubeScrambler.xlsx" download><i class="fa fa-cloud-download fa-fw"></i> Download</a>
               </div>
               <!-- Button -->
             </div>
